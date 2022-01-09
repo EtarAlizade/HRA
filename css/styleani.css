@@ -1,0 +1,234 @@
+/* .box{
+    width: 100px;
+    height: 20vh;
+    background-color: purple;
+    display: inline-block;
+    border-radius: 30px;
+    margin-left: 40px;
+    animation-name: firlan;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.box h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    animation-name: Reng;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes firlan{
+    from{
+        transform:translate(0,0);
+    }
+    to{
+        transform: translate(0,500px) ;
+        background-color: tomato;
+        color: yellowgreen;
+
+    }
+}
+
+@keyframes Reng {
+    from{
+        color: #fff;
+    }
+    to{
+        color:red
+    }
+}  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* 
+.container{
+    width: 70%;
+    margin: auto;
+    background-color: wheat;
+    
+}
+.header-top-item{
+    display: inline-block;
+    width: 46%;
+    background-color: cornflowerblue;
+    
+    }
+    .header-top-item>ul li{
+        display:inline-block;
+        
+    }
+    .header-top-item ul li a{
+        color: white;
+        margin-left: 5px;
+        font-size: 15px;
+        
+        
+    }
+   .icon{
+       border: 5px solid white;
+       border-top-color: blue;
+       width: 60px;
+       height: 60px;
+       background-color:rgb(221, 221, 221);
+       border-radius: 100%;
+   }
+   .icon h6{
+       text-align: center;
+       padding-top: 20px;
+   }
+   .icon1-etar{
+       border:1px solid;
+       background-color: chocolate;
+       width: 200px;
+       height: 200px;
+       position: relative;
+       
+    }
+    .iki{
+        border: 1px solid;
+        width: 100px;
+        height: 100px;
+        background-color: crimson;
+        position: absolute;
+        
+        margin-left: 25%;
+        margin-top: 10%;
+
+    }
+    /* .uc{
+        margin-top: 25%;
+
+    } */
+   /* .icon1-kenan{
+    border: 1px solid;
+       width: 100px;
+       height: 100px;
+       background-color: crimson;
+       position: absolute;
+       margin-left: 25%;
+   } */ 
+   /* body{
+       height: 100vh;
+        display: flex; 
+       justify-content: center;
+       align-items: center;
+   }
+   .box{
+       width: 400px;
+       height: 400px;
+       background-color: crimson;
+   }
+   .box h1{
+       font-size: 40px;
+   }
+   .box p{
+       font-size: 28px;
+   } */
+
+
+
+   /* header start */
+   .header{
+       height: 100px;
+       position: relative;  /* sen absolutun valideyinisen senin icinde hereket etsin*/
+       background-color: rgb(170, 170, 21);
+   }
+   
+   
+    .container{
+       background-color: rgb(219, 212, 212);
+       width: 70%;
+       margin: auto;
+       position: absolute;
+       left:50%;
+       top:120%;
+       opacity: 0;
+       transition: all 0.4s ease-in-out;
+       box-shadow: 0px 7px 7px 5px rgb(194, 191, 191);
+       border-radius: 10px;
+      transform: translate(-50%,0); /* sen boyu weylerde saga sola getmek ucunsen x ve y*/
+    }
+    .header:hover .container{
+        opacity: 1;
+        top:60%;
+        transition:  all 0.4s ease-in-out;
+    }
+     
+    
+    .container ul {
+        display: flex;
+        width: fit-content; /* seniin uzunlugun kontentin qeder olsun*/
+        margin-left: 20px;
+         }
+       
+    .container ul li a{   
+        padding: 25px;
+        display: inline-block; /*inlne blok oldugu ucun heigth qebul etmir ona gore dis inlain blok ol */
+        color: black;
+        text-transform: capitalize; /*sen sozun ilk herfini boyuk edirsen*/
+        position: relative;
+    
+    }
+    .container ul li:first-child a{
+        background-color: rgb(221, 221, 31);
+    
+    }
+   
+    .container ul li span {
+            background-color: black;
+            width: 0px;
+            height: 1px;
+            display: inline-block;
+            position: absolute;
+            top: 65px;
+            left: 75px;
+            opacity: 0;
+            transition: all 0.5s ease;
+}
+.container ul li a span.a-firstChild{
+    height: 1px;
+    width: 60px;
+    background-color: black;
+    opacity: 1;
+    left: 15px;
+}
+ .container ul li :hover span{
+            opacity: 1;
+            width: 60px;
+            transition:width 0.5s ease;
+            left: 15px;
+        }
+    .container ul li:hover{
+        background-color: rgb(221, 221, 31);
+    }
+    .container ul li a:hover{
+        color: white;
+    }
+    /* header finish *
+
+    /* sunset start */
+    .owerlow{
+        display: flex;
+        margin: 15px;
+    }
+ .sekil{
+     width: 30%;
+ }
+ .owerlow .sekil img{
+     width: 100%;
+ }
+            
+    /* sunset finsh */

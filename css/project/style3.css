@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header li{
+    display: inline-block;
+    color: red;
+    padding: 20px;
+    color:black;
+    margin-right: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+.header li:hover{
+    background-color:rgb(185, 185, 185);
+    color: yellow;
+}
+.header {
+    background-color: rgb(216, 216, 216);
+    text-align: right;
+}
+.govde{
+   background-image: url("../../image/mak.jpeg");
+    height: 90vh;
+    background-size: cover;
+    
+    }
+.govde-item {
+padding-left: 100px;
+padding-top: 8%;
+
+   }
+   .govde-item h1,.govde-item p,.govde-item a{
+    padding: 15px;
+       color:white;
+   }
+   .govde-item h1{
+       font-size: 70px;
+    word-spacing: 10px;
+   }
+   .govde-item a{
+       background-color: gray;
+       display: inline-block;
+       }
+       .govde-item p{
+           font-size: 25px;
+       }
+    .container-basliq h5, .container-basliq p{
+        text-align: center;
+        
+    }
+    .container-basliq h5{
+        padding-top: 5%;
+        }
+        .container-basliq p{
+            padding-top: 2%;
+        }
+       
+        .responsive {
+            display: inline-block;
+            width: 24%;
+            padding: 0px 20px;
+            padding-top: 5%;
+
+        }
+        .responsive h5{
+            text-align: center;
+            /* padding-top: 8px; */
+            font-size: 20px;
+            width: 50%;
+            color: rgb(160, 158, 158);
+            margin-left: 50px;
+            padding: 5px;
+}
+.responsive h5:hover{
+    color:yellow;  
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid rgb(138, 135, 135);
+    background-color:rgb(185, 185, 185);
+    
+    border-radius: 5px;
+}
+.responsive p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+    
+       

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: wheat;
+}
+.box1{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(236, 178, 236);
+    position: absolute;
+    
+}
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+
+}
+.first{
+    top:0px;
+    left: 0px;
+
+}
+.second{
+    top:0px;
+    left:70%;
+}
+.three{
+    top: 90%;
+    left:0px
+}
+.forth{
+    top: 90%;
+    left:70%;
+}
+.bir{
+    bottom: 0px;
+    left:25%
+}
+.iki{
+    letf:0px;
+    top:25%;
+}
+.uc{
+    top:0px;
+    left:25%;
+}
+.dord{
+    right: 0px;
+    top:25%;
+}

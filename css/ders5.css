@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header-top{
+    background-color: rgb(72, 138, 6);
+    padding: 20px;
+    
+}
+.header-top-item .phone li {
+    display: inline-block;
+    margin-right: 15px;
+    }
+    .header-top-item .phone li a{
+        color: white;
+    
+    }
+    
+    .header-top-item:first-child{
+        width: 49%;
+    }
+    .header-top-item:last-child{
+        width: 50%;
+    }
+    .header-top-item {
+        display: inline-block;
+    }
+    .header-top-item .proses li{
+        display: inline-block;
+    }
+    .header-top-item .proses li a{
+     color: white;
+    }
+    .header-top-item .proses i {
+        margin-right: 15px;
+    }
+    .header-top-item .proses {
+            text-align: right;
+    }
+    
+.header-bottom-item .icon,
+.header-bottom-item .info{
+    display: inline-block;
+}
+
+.header-bottom-item .info{
+    width: 80%;
+}
+
+.header-bottom-item{
+    display: inline-block;
+    width: 25%;
+}
+.header-bottom-item:last-child{
+    width: 23%;
+}
+.header-bottom-item ,.container{
+    padding-top: 10px ;
+}
+.header-bottom{
+    background-color:white;
+}
+
+.icon{
+    width: 49px;
+    height: 49px;
+    background-color:rgb(243, 237, 237);
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 16px;
+   
+    
+}
